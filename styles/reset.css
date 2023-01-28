@@ -1,0 +1,57 @@
+:root {
+  --green-400: #00b37e;
+  --green-600: #07847e;
+  --gray-100: #e1e1e6;
+  --purple-800: #1a1924;
+  --purple-500: #633bbc;
+  --purple-700: #282843;
+
+  font-size: 14px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--purple-800);
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  display: none;
+}
+
+button {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--gray-100);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}

@@ -1,0 +1,155 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+/* ========= Header - Profile ========= */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2.5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.profile img {
+  height: 4.8rem;
+  border-radius: 100%;
+}
+
+.user {
+  font-size: 1.6rem;
+}
+
+.status {
+  margin-top: 0.4rem;
+  font-size: 1.4rem;
+  color: var(--green-400);
+}
+
+/* ========= Main - Converation ========= */
+
+.last-time {
+  text-align: center;
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.conversation {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  padding: 0 2.5rem;
+}
+
+/* Style: Box de recebimento da mensagem */
+
+.sender {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.sender .info-sender {
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.sender-message {
+  display: inline-block;
+  padding: 1.4rem;
+
+  border-radius: 0px 8px 8px 8px;
+  background-color: var(--purple-500);
+
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* Style: Box de envio da mensagem */
+
+.addressee {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.addressee .info-adress {
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.addressee-message {
+  display: inline-block;
+  padding: 1.4rem;
+
+  border-radius: 8px 8px 0px 8px;
+  background-color: var(--green-600);
+
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* ========= Footer - Send Message ========= */
+.message {
+  display: flex;
+  align-items: center;
+
+  padding: 0 2.5rem;
+}
+
+.message input {
+  width: 100%;
+  margin-bottom: 5.1rem;
+  padding: 1.4rem 2.4rem;
+
+  background: var(--purple-700);
+  border-radius: 999px 0 0 999px;
+  border: none;
+
+  color: var(--gray-100);
+  font-weight: 400;
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.message input:focus {
+  outline: none;
+}
+
+.message button {
+  margin-bottom: 5.1rem;
+  padding: 0.91rem;
+  border-radius: 0 999px 999px 0;
+
+  background: var(--purple-700);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message button img {
+  width: 2.4rem;
+  height: 2.4rem;
+}

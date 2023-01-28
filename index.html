@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chat - BoraCodar</title>
+  </head>
+  <body>
+    <div class="chat container">
+      <div>
+        <header class="header">
+          <div class="profile">
+            <img src="./assets/profile.png" alt="" />
+            <div>
+              <h2 class="user">Cecilia Sassaki</h2>
+              <span class="status"> ● Online </span>
+            </div>
+          </div>
+          <button>
+            <img src="./assets/close.svg" alt="" />
+          </button>
+        </header>
+
+        <main class="conversation">
+          <div class="last-time">
+            <span>Hoje <time>11:30</time></span>
+          </div>
+
+          <div class="sender">
+            <span class="info-sender">Cecilia - <time>11:30</time></span>
+            <div class="sender-message">
+              <p>Tive uma ideia incrível para um projeto!😍</p>
+            </div>
+          </div>
+
+          <div class="addressee">
+            <span class="info-adress">Você - <time>11:32</time></span>
+            <div class="addressee-message">
+              <p>Sério? Me conta mais.</p>
+            </div>
+          </div>
+
+          <div class="sender">
+            <span class="info-sender">Cecilia - <time>11:34</time></span>
+            <div class="sender-message">
+              <p>
+                E se a gente fizesse um chat moderno e responsivo em apenas uma
+                semana?
+              </p>
+            </div>
+          </div>
+
+          <div class="addressee">
+            <span class="info-adress">Você - <time>11:36</time></span>
+            <div class="addressee-message">
+              <p><strong>#boraCodar! </strong>🚀</p>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="message">
+        <label for="message">Digite sua Mensagem</label>
+        <input
+          placeholder="Digite sua mensagem"
+          type="text"
+          name="message"
+          id="message"
+        />
+        <button>
+          <img src="./assets/send.svg" alt="Enviar" />
+        </button>
+      </footer>
+    </div>
+  </body>
+</html>
